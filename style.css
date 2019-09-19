@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   margin-left: -19%;
+  background-color: #e6f0ff !important;
 }
 
 
@@ -41,9 +42,22 @@ body {
     border-bottom-left-radius: 60px;
     border-top-right-radius: 60px;
     max-width: 65%;
-    margin-left: 16%;
+    margin: 33% 28%;
 }
 
 .fundologo{
     background-color:  #4d94ff;
+    padding-bottom: 50%;
+    box-shadow: 8px 0 #c9d3e2;
 }
+
+.linha{
+    height: 100%; 
+    background-color: black;
+}
+
+.linhalogo{
+    margin: 0 8% 0 16%;
+}
+
+/* PARTE DO LOGIN*/
