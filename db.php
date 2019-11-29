@@ -1,7 +1,7 @@
 <?php
 
 
-$servidor = 'localhost';
+$servidor = 'https://fraternidade-irma.herokuapp.com/';
 $usuario = 'root';
 $senha = '';
 $database = 'fraternidade';
