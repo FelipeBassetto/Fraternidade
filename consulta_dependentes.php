@@ -22,8 +22,8 @@ $link = $_GET['editar']
         echo '<tr><td>'.$linha_depen['num_cadastro'].'</td>';
         echo '<td>'.$linha_depen['nome_dependente'].'</td>';
     ?>
-    <td><a href="?pagina=editardependente&editar=<?php echo $linha_depen['id'];?>"><i class="fas fa-user-edit"></i></a></td>
-    <td><a href="deletadependente.php?deletar=<?php echo $linha_depen['id'];?>"><i class="fas fa-user-times"style="color: #ff6b6b;"></i></a></td></tr>
+    <td><a href="?pagina=editardependente&editar=<?php echo $linha_depen['id_dependente'];?>"><i class="fas fa-user-edit"></i></a></td>
+    <td><a href="deletadependente.php?deletar=<?php echo $linha_depen['id_dependente'];?>"><i class="fas fa-user-times"style="color: #ff6b6b;"></i></a></td></tr>
     <?php
       }
     ?>
