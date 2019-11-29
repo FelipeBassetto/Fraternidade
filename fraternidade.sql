@@ -27,21 +27,18 @@ SET time_zone = "+00:00";
 --
 -- Estrutura da tabela `pessoas`
 --
-CREATE DATABASE fraternidade;
-
-USE fraternidade;
+USE obk6a4eglons2ijq;
 
 CREATE TABLE pessoas (
-  idpessoas int(11),
-  foto varchar(500),
+  id int(11) AUTO_INCREMENT,
   nome varchar(100) NOT NULL,
   sexo varchar(10) NOT NULL,
   data_nascimento varchar(20),
   estado_civil varchar(30) NOT NULL,
-  nome_conjuge varchar(255) DEFAULT 'Não tem',
+  nome_conjuge varchar(255),
   rg varchar(12) NOT NULL,
   cpf varchar(14) NOT NULL,
-  email varchar(255) DEFAULT 'Não tem',
+  email varchar(255),
   telefone varchar(50) NOT NULL,
   endereco varchar(255) NOT NULL,
   moradia varchar(30) NOT NULL,
@@ -49,41 +46,25 @@ CREATE TABLE pessoas (
   rg_pa varchar(12) NOT NULL,
   informacao_adicional varchar(255) NOT NULL,
   data_cadastro varchar(20),
-  status varchar(7) NOT NULL
+  status varchar(7) NOT NULL,
+  PRIMARY KEY (idpessoas)
 )ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 CREATE TABLE dependentes(
-  id_dependente int(11),
+  id_dependente int(11) AUTO_INCREMENT,
   num_cadastro varchar(255) NOT NULL,
   nome_dependente varchar(255) NOT NULL,
   data_nascimento_dependente date NOT NULL,
   sexo_dependente varchar(255) NOT NULL,
   rg_dependente varchar(12),
   grau_parentenco varchar(255) NOT NULL,
-  num_crianca varchar(255),//
-  idade_C varchar(255) NOT NULL,//
   tamanho_sapato varchar(255),
   tamanho_roupa varchar(255),
-  data_nascimentoBB date,//
-  dificiencia varchar(255),//
-  fralda varchar(50) NOT NULL//
+  PRIMARY KEY (id_dependente)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin2;
 
 
-ALTER TABLE pessoas
-  ADD PRIMARY KEY (idpessoas);
-
-ALTER TABLE dependentes
-  ADD PRIMARY KEY (id_dependente);
-
-ALTER TABLE pessoas
-  MODIFY idpessoas int(11) AUTO_INCREMENT, AUTO_INCREMENT=28;
-COMMIT;
-
-ALTER TABLE dependentes
-  MODIFY id_dependente int(11) AUTO_INCREMENT, AUTO_INCREMENT=28;
-COMMIT;
-
+/*  num_crianca varchar(255),// idade_C varchar(255) NOT NULL,//  data_nascimentoBB date,//  dificiencia varchar(255),//  fralda varchar(50) NOT NULL//*/;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
