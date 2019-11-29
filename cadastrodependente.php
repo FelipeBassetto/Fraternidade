@@ -105,5 +105,6 @@
 
 <script>
     $('#data_nascimentoD').mask('00/00/0000');
+    $('#nasc_bb').mask('00/00/0000');
     $('#rg_D').mask('00.000.000-0');
   </script>

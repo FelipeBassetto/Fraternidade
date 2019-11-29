@@ -27,8 +27,6 @@ SET time_zone = "+00:00";
 --
 -- Estrutura da tabela `pessoas`
 --
-USE obk6a4eglons2ijq;
-
 CREATE TABLE pessoas (
   id int(11) AUTO_INCREMENT,
   nome varchar(100) NOT NULL,
@@ -47,7 +45,7 @@ CREATE TABLE pessoas (
   informacao_adicional varchar(255) NOT NULL,
   data_cadastro varchar(20),
   status varchar(7) NOT NULL,
-  PRIMARY KEY (idpessoas)
+  PRIMARY KEY (id)
 )ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 CREATE TABLE dependentes(
@@ -58,13 +56,17 @@ CREATE TABLE dependentes(
   sexo_dependente varchar(255) NOT NULL,
   rg_dependente varchar(12),
   grau_parentenco varchar(255) NOT NULL,
+/*  num_crianca varchar(255),//
+  idade_C varchar(255) NOT NULL,//*/
   tamanho_sapato varchar(255),
   tamanho_roupa varchar(255),
+  data_nascimentoBB date,
+/*  dificiencia varchar(255),//
+  fralda varchar(50) NOT NULL//*/
   PRIMARY KEY (id_dependente)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin2;
 
 
-/*  num_crianca varchar(255),// idade_C varchar(255) NOT NULL,//  data_nascimentoBB date,//  dificiencia varchar(255),//  fralda varchar(50) NOT NULL//*/;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
