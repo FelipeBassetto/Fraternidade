@@ -18,7 +18,7 @@ $roupa = $_POST['roupa_edi'];
 
 $query = "UPDATE dependentes SET num_cadastro = $num_cadastro, nome_dependente = '$nome', 
 data_nascimento_dependente = '$data_nascimento', sexo_dependente = '$sexo', rg_dependente = '$rg',
-grau_parentenco = '$grau', tamanho_sapato = '$sapato', tamanho_roupa = '$roupa' WHERE id = '$id'";
+grau_parentenco = '$grau', tamanho_sapato = '$sapato', tamanho_roupa = '$roupa' WHERE id_dependente = '$id'";
 
 mysqli_query($conexao, $query);
 header("location:index.php?pagina=editarpessoa&editar=$num_cadastro");
