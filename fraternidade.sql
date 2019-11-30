@@ -73,7 +73,9 @@ CREATE TABLE dependentes(
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
-CREATE TABLE usuarios{
+CREATE TABLE usuarios(
+  id int(11) AUTO_INCREMENT,
   login varchar(255),
-  senha varchar(255)
-}
+  senha varchar(255),
+  PRIMARY KEY (id)
+)
