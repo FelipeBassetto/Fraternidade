@@ -1,5 +1,5 @@
 <?php
-include "db.php";
+require("db.php");
 $login =(string) $_POST['user'];
 $senha =(string) md5($_POST['password']);
 while($verifica = mysqli_fetch_array($consulta_usuario) ){
