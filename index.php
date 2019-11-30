@@ -9,11 +9,14 @@ if(isset($_GET['pagina'])){
     $pagina = $_GET['pagina'];
 }
 else{
-    $pagina = 'pessoas.php';
+    $pagina = 'login.php';
 }
 
 if($pagina == 'cadastropessoa'){
     include 'cadastropessoa.php';
+}
+elseif($pagina == 'pessoas'){
+    include 'pessoas.php';
 }
 elseif($pagina == 'cadastrodependente'){
     include 'cadastrodependente.php';
