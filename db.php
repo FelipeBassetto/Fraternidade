@@ -12,3 +12,4 @@ $conexao = mysqli_connect($servidor, $usuario, $senha, $database);
 $consulta_pessoas = mysqli_query($conexao,  "SELECT * FROM pessoas");
 $consulta_dependentes = mysqli_query($conexao,  "SELECT * FROM dependentes");
 $pega_maximo = mysqli_query($conexao,  "SELECT Max(num_crianca) FROM dependentes;");
+$consulta_usuario = mysqli_query($conexao,  "SELECT * FROM usuarios");
