@@ -27,7 +27,7 @@
         <input type="text" class="form-control" name="grau_parentenco" placeholder="Digite o grau de parentesco">
     </div>
     <div class="form-group">
-        <input type="checkbox" onclick="chamacria()" id="botaocria" name="botaocria">  Sou criança
+        <input type="checkbox" onclick="chamacria()" id="botaocria" name="botaocria" >  Sou criança
     </div>
 
     <div class="form-group">
@@ -73,29 +73,29 @@
     <div style="display:none" id="criança">
     <div class="form-group">
         <label class="badge badge-secondary">Tamanho do Sapato:</label>
-        <input type="text" class="form-control" name="sapato" placeholder="Digite o numero de calçados">
+        <input type="text" class="form-control" name="sapato" placeholder="Digite o numero de calçados" value='não tem' >
     </div>
     <div class="form-group">
         <label class="badge badge-secondary">Tamanho da Roupa:</label>
-        <input type="text" class="form-control" name="roupa" placeholder="Digite o tamanho da roupa">
+        <input type="text" class="form-control" name="roupa" placeholder="Digite o tamanho da roupa" value='não tem' >
     </div>
     </div>
     <div style="display:none" id="gravida">
     <div class="form-group">
         <label class="badge badge-secondary">Data de Nascimento da Bebe:</label>
-        <input type="text" class="form-control" name="data_nascimentoD" placeholder="Digite a data de nascimento dependente" id="nasc_bb">
+        <input type="text" class="form-control" name="data_nascimentoD" placeholder="Digite a data de nascimento dependente" id="nasc_bb" value = '11/11/1111'>
     </div>
     </div>
     <div style="display:none" id="deficiente">
     <div class="form-group">
         <label class="badge badge-secondary">Deficiencia:</label>
-        <input type="text" class="form-control" name="deficiencia" placeholder="deficiencia" id="deficiencia" >
+        <input type="text" class="form-control" name="deficiencia" placeholder="deficiencia" id="deficiencia" value='não tem' >
     </div>
     </div>
     <div style="display:none" id="fraldas">
     <div class="form-group">
         <label class="badge badge-secondary">Fralda:</label>
-        <input type="text" class="form-control" name="fralda" placeholder="fralda" id="fralda">
+        <input type="text" class="form-control" name="fralda" placeholder="fralda" id="fralda" value='não tem'>
     </div>
     </div>
     <input type="submit" class="btn btn-primary" value="Cadastrar Dependente" >
@@ -108,3 +108,6 @@
     $('#nasc_bb').mask('00/00/0000');
     $('#rg_D').mask('00.000.000-0');
   </script>
+
+<?php
+  include 'footer.php';

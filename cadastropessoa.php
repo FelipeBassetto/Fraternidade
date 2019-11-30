@@ -65,7 +65,7 @@
   </div>
   <div class="form-group">
     <label class="badge badge-secondary">Data do Cadastro:</label>
-    <input type="text" class="form-control" name="data_cadastro" placeholder="" id="data_cadastro">
+    <input type="text" class="form-control" name="data_cadastro" placeholder="Digite a data do cadastro" id="data_cadastro">
   </div>
   <div class="form-group">
     <label class="badge badge-secondary">Status:</label>
@@ -85,4 +85,5 @@
     $('#cpf_titular').mask('000.000.000-00');
     $('#telefone').mask('(00)00000-0000');
   </script>
-
+<?php
+  include 'footer.php';
