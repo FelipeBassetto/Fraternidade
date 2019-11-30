@@ -20,6 +20,7 @@ $link = $_GET['editar']
       $consulta_dependentes = mysqli_query($conexao,  "SELECT * FROM dependentes WHERE num_cadastro = '$id' ");
       while($linha_depen = mysqli_fetch_array($consulta_dependentes)){
         echo '<tr><td>'.$linha_depen['num_cadastro'].'</td>';
+        echo '<td>'.$linha_depen['num_crianca'].'</td>';
         echo '<td>'.$linha_depen['nome_dependente'].'</td>';
         echo '<td>'.$linha_depen['idade_C'].'</td>';
     ?>
