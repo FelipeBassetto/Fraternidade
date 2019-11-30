@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 -- Estrutura da tabela `pessoas`
 --
 USE obk6a4eglons2ijq;
-
+/*
 CREATE TABLE pessoas (
   id int(11) AUTO_INCREMENT,
   nome varchar(100) NOT NULL,
@@ -67,8 +67,13 @@ CREATE TABLE dependentes(
   fralda varchar(50) NOT NULL,
   PRIMARY KEY (id_dependente)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin2;
-
+*/
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+CREATE TABLE usuarios{
+  login varchar(255),
+  senha varchar(255)
+}
