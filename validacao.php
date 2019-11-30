@@ -9,5 +9,6 @@ $senha_bd = $verifica['senha'];
 if($login_bd == $login && $senha_bd == $senha){
   header("Location:index.php?pagina=pessoas");
 }else{
-  echo"<script language='javascript' type='text/javascript'>alert('Login e/ou senha incorretos');window.location.href='?pagina=login';</script>";
+  echo"<script language='javascript' type='text/javascript'>alert('Login e/ou senha incorretos');</script>";
+  header("Location:index.php?pagina=login");
 }
