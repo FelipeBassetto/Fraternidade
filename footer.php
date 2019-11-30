@@ -6,6 +6,3 @@
     $('#dependentes').DataTable();
 </script>
 
-<footer>
-    <p>Direitos reservados a Fraternidade Espírita Irmã Maria</p>
-</footer>
