@@ -6,6 +6,10 @@ $senha =(string) md5($_POST['password']);
 $verifica = mysqli_fetch_array($consulta_usuario) ;
 $login_bd = $verifica['login'];
 $senha_bd = $verifica['senha'];
+echo $login_bd
+echo $senha_bd
+echo $login
+echo $senha
 if($login_bd == $login AND $senha_bd == $senha){
   header("Location:index.php?pagina=pessoas");
 }else{
