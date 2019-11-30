@@ -1,7 +1,7 @@
 <?php
 include db.php;
-$login = $_POST['user'];
-$senha = $_POST['password'];
+$login =(string) $_POST['user'];
+$senha =(string) $_POST['password'];
 echo $login;
 echo $senha;
 
