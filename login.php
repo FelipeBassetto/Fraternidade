@@ -6,7 +6,7 @@
     </div>
     <div class="form-group">
         <label class="badge badge-secondary">Senha:</label>
-        <input type="text" class="form-control" name="password" placeholder="Digite a senha">
+        <input type="password" class="form-control" name="password" placeholder="Digite a senha">
     </div>
     <input type="submit" class="btn btn-primary" value="Entrar" >
 </form>
