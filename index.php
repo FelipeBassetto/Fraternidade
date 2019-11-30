@@ -29,7 +29,7 @@ elseif($pagina == 'editardependente'){
     include 'editardependente.php';
 }
 else{
-    include 'pessoas.php';
+    include 'login.php';
 }
 
 
