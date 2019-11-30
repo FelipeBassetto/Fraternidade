@@ -3,8 +3,8 @@ include db.php;
 $login =(string) $_POST['user'];
 $senha =(string) md5($_POST['password']);
 while($verifica = mysqli_fetch_array($consulta_usuario) ){
-$login_bd = $verifica['login'];
-$senha_bd = $verifica['senha'];
+$login_bd = (string) $verifica['login'];
+$senha_bd = (string) $verifica['senha'];
 }
 echo $senha_bd;
 echo $login;
