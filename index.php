@@ -18,6 +18,9 @@ if($pagina == 'cadastropessoa'){
 elseif($pagina == 'pessoas'){
     include 'pessoas.php';
 }
+elseif($pagina =='login'){
+    include 'login.php';
+}
 elseif($pagina == 'cadastrodependente'){
     include 'cadastrodependente.php';
 }
