@@ -1,7 +1,7 @@
 <?php
 include db.php;
 $login = $_POST['user'];
-$senha = md5($_POST['password']);
+$senha = $_POST['password'];
 echo $login;
 echo $senha;
 
