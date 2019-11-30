@@ -19,11 +19,11 @@
     ?>
     <td><a href="?pagina=editarpessoa&editar=<?php echo $linha['id'];?>"><i class="fas fa-user-edit"></i></a></td>
     <td><a href="deletapessoa.php?deletar=<?php echo $linha['id'];?>"><i class="fas fa-user-times"style="color: #ff6b6b;"></i></a></td></tr>
+    <footer>
+      <p>Direitos reservados a Fraternidade Espírita Irmã Maria</p>
+    </footer>
     <?php
       }
     ?>
   </tbody>
   
-<footer>
-    <p>Direitos reservados a Fraternidade Espírita Irmã Maria</p>
-</footer>
