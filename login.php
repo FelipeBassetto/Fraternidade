@@ -1,8 +1,11 @@
-<div class=".col-md-12">
-    <div class=".col-md-8">
+
+<link rel="stylesheet" type="text/css" media="screen" href="css/login.css">
+
+<div class="row">
+    <div class="col-md-8 homeEsquerda">
         <p>TESTEEEEEEEEEEEEEEEEEE</p>
     </div>
-    <div class=".col-md-4">
+    <div class="col-md-4">
         <form method="post" action="validacao.php">
             <h1 class='titulo'>Cadastro de dependentes.</h1>
             <div class="form-group">
@@ -17,3 +20,4 @@
         </form>
     </div>
 </div>
+
