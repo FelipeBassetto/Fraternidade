@@ -3,7 +3,7 @@
 
 <div class="row">
     <div class="col-md-7 homeEsquerda">
-        <img src="img/familia.png" alt="logo da fraternidade imma maria">
+        <img src="img/familia.jpg" alt="logo da fraternidade imma maria">
     </div>
     <div class="col-md-5 homeDireita">
         <form method="post" action="validacao.php">
