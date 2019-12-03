@@ -1,3 +1,6 @@
+
+<link rel="stylesheet" type="text/css" media="screen" href="css/login.css">
+
 <div class="row">
     <div class="col-md-8 homeEsquerda">
         <p>TESTEEEEEEEEEEEEEEEEEE</p>
@@ -17,3 +20,4 @@
         </form>
     </div>
 </div>
+
