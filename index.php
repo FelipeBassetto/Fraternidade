@@ -24,6 +24,9 @@ elseif($pagina =='login'){
 elseif($pagina == 'cadastrodependente'){
     include 'cadastrodependente.php';
 }
+elseif($pagina == 'impressoes'){
+    include 'impressoes.php';
+}
 elseif($pagina == 'editarpessoa'){
     include 'editarpessoa.php';
     include 'consulta_dependentes.php';

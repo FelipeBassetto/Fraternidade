@@ -14,6 +14,7 @@
     <header>
         <div class="container">
             <a href="index.php"><img src="img/logo.png" alt="logo" title="logo" style="width:6%"></a>
+            <a href="?pagina=impressoes" class="btn">Impressões</a><p></p>
         </div>
     </header>
     <div id="conteudo" class="container">
