@@ -1,9 +1,7 @@
-.homeEsquerda{
-    background-color: #00083f;
-}
+
 .homeEsquerda img{
-    margin: 30% 0 0 24%;
-    box-shadow: 2px 3px #02051d;;
+    margin: 30% 0 0 0;
+    width: 100%;
 }
 
 .homeDireita{
