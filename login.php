@@ -5,7 +5,7 @@
     <div class="col-md-7 homeEsquerda">
         <img src="img/logo.png" alt="logo da fraternidade imma maria">
     </div>
-    <div class="col-md-5">
+    <div class="col-md-5 homeDireita">
         <form method="post" action="validacao.php">
             <h1 class='titulo'>Cadastro de dependentes.</h1>
             <div class="form-group">
