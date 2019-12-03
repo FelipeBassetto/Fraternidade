@@ -1,7 +1,9 @@
 <?php
-require("db.php");
+include "db.php";
 $login =(string) $_POST['user'];
 $senha =(string) md5($_POST['password']);
+$senha_bd = "";
+$login_bd = "";
 while($verifica = mysqli_fetch_array($consulta_usuario) ){
   $login_bd = (string) $verifica['login'];
   $senha_bd = (string) $verifica['senha'];
