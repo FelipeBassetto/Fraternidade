@@ -44,18 +44,18 @@
     }
 </script>
 <form method="post" action="cartao.php" target="_blank" id="formcartao" style="display:none">
-    <input type="submit" class="btn btn-primary" value="Gerar cartao" >
+    <input type="submit" class="btn btn-primary" value="Gerar cartões" >
     <br/>
 </form>
-<form method="post" action="etiqueta.php" target="_blank" id="formcartao" style="display:none">
-    <input type="submit" class="btn btn-primary" value="Gerar impressão" >
+<form method="post" action="etiqueta.php" target="_blank" id="formetiqueta" style="display:none">
+    <input type="submit" class="btn btn-primary" value="Gerar Etiquetas" >
     <br/>
 </form>
-<form method="post" action="sacolinhas.php" target="_blank" id="formcartao" style="display:none">
-    <input type="submit" class="btn btn-primary" value="Gerar impressão" >
+<form method="post" action="sacolinhas.php" target="_blank" id="formsacolinha" style="display:none">
+    <input type="submit" class="btn btn-primary" value="Gerar Lista" >
     <br/>
 </form>
-<form method="post" action="presenca.php" target="_blank" id="formcartao" style="display:none">
-    <input type="submit" class="btn btn-primary" value="Gerar impressão" >
+<form method="post" action="presenca.php" target="_blank" id="formpresenca" style="display:none">
+    <input type="submit" class="btn btn-primary" value="Gerar Lista" >
     <br/>
 </form>
