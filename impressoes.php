@@ -47,15 +47,15 @@
     <input type="submit" class="btn btn-primary" value="Gerar cartao" >
     <br/>
 </form>
-<form method="post" action="etiqueta.php" target="_blank">
+<form method="post" action="etiqueta.php" target="_blank" id="formcartao" style="display:none">
     <input type="submit" class="btn btn-primary" value="Gerar impressão" >
     <br/>
 </form>
-<form method="post" action="sacolinhas.php" target="_blank">
+<form method="post" action="sacolinhas.php" target="_blank" id="formcartao" style="display:none">
     <input type="submit" class="btn btn-primary" value="Gerar impressão" >
     <br/>
 </form>
-<form method="post" action="presenca.php" target="_blank">
+<form method="post" action="presenca.php" target="_blank" id="formcartao" style="display:none">
     <input type="submit" class="btn btn-primary" value="Gerar impressão" >
     <br/>
 </form>
