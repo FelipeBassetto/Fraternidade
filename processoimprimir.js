@@ -1,4 +1,3 @@
-function teste() {
 var impressao = document.getElementById(impressao);
 if (impressao == 'cartao') {
     <span class="popuptext" id="popup cartao">cartao</span>;
@@ -12,5 +11,3 @@ else if (impressao == 'sacolinhas') {
 else if (impressao == 'presenca') {
     <span class="popuptext" id="popup cartao">presenca</span>;
 } 
-}
-teste()

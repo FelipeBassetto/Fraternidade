@@ -136,7 +136,6 @@ $data_nascimento = date('d/m/Y',$data_process);
             $('#criança').css("display","block");
         } else {
             $('#criança').css("display","none");
-            $('#crianca').val($( this ).attr('href'));
         }
         }
         function chamadata() {
