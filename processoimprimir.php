@@ -1,5 +1,5 @@
 <?php
-$impressao = $_POST(name);
+$impressao = $_POST['name'];
 if (impressao == 'cartao') {
     ?>
     <p>cartao</p>
