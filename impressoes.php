@@ -1,5 +1,5 @@
 <h1 class='titulo'>Selecione oque deseja imprimir.</h1>
-<form method="post" action="processoimprimir.php">
+<form method="post" action="processoimprimir.js">
     <div class="form-group">
         <input type="radio" value="cartao" name='impressao' id='impressao' >  Cartões das pessoas.
     </div>
