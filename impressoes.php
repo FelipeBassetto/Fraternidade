@@ -50,8 +50,52 @@
     <br/>
 </form>
 <form method="post" action="etiqueta.php" target="_blank" id="formetiqueta" style="display:none">
+<!--tabela-->
+<table class="table table-hover table-striped" id="dependentes">
+  <thead>
+    <tr>
+      <th>Selecionar</th>
+      <th>Numero Cadastro</th>
+      <th>Numero Criança</th>
+      <th>Nome</th>
+      <th>Idade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <?php 
+      $consulta_dependentes = mysqli_query($conexao,  "SELECT * FROM dependentes WHERE idade_C <15");
+      $imprimir = array();
+      while($linha_depen = mysqli_fetch_array($consulta_dependentes)){
+        ?>
+        <tr><td><input type="checkbox" id="id_depend" onclick="adiciona()"></td>
+        <?php
+
+        echo '<td>'.$linha_depen['num_cadastro'].'</td>';
+        echo '<td>'.$linha_depen['num_crianca'].'</td>';
+        echo '<td>'.$linha_depen['nome_dependente'].'</td>';
+        echo '<td>'.$linha_depen['idade_C'].'</td>';
+      }
+    ?>
+    <script>
+    function adiciona(){
+        if($("#id_depend").is(":checked")){
+            <?php
+            array_push($imprimir,$linha_depen['id_dependente']);
+            ?>
+        } else{
+            <?php
+            $lugar = array_search($linha_depen['id_dependente'],$imprimir);
+            unset($imprimir[$lugar]);
+            
+            ?>
+        };
+    }
+    </script>
+  </tbody>
+</table>
+    <input type="hidden" name="array[]" id='array' value="<?php $imprimir?>"> 
+    <br/>
     <input type="submit" class="btn btn-primary" value="Gerar Etiquetas" >
-    
     <br/>
 </form>
 <form method="post" action="sacolinhas.php" target="_blank" id="formsacolinha" style="display:none">

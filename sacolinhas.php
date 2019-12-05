@@ -22,7 +22,7 @@
   </thead>
   <tbody>
     <?php
-    $consulta_sacolinha = mysqli_query($conexao,  "SELECT * FROM dependentes WHERE idade >15");
+    $consulta_sacolinha = mysqli_query($conexao,  "SELECT * FROM dependentes WHERE idade_C <15");
       while($linha = mysqli_fetch_array($consulta_sacolinha)){
         echo '<tr><td></td>';
         echo '<td>'.$linha['num_cadastro'].'</td>';
