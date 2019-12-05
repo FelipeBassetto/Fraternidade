@@ -54,6 +54,9 @@
     <br/>
 </form>
 <form method="post" action="sacolinhas.php" target="_blank" id="formsacolinha" style="display:none">
+<label class="badge badge-secondary">Idade Maxima da sacolinha:</label>
+    <input type="text" class="form-control" name="idade_sacolinha" placeholder="Digite a idade maxima" id="idade_sacolinha">   
+    <br/>
     <input type="submit" class="btn btn-primary" value="Gerar Lista" >
     <br/>
 </form>
