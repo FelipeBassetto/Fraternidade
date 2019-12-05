@@ -31,3 +31,4 @@ $link = $_GET['editar']
     ?>
 
   </tbody>
+</table>

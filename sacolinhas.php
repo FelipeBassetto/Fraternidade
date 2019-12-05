@@ -40,9 +40,13 @@
         echo '<td></td>';
         echo '<td></td>';
       }
-      echo '<form>
-      <input type="button" value="Print this page" onClick="window.print()"/>
-      </form>'
     ?>
   </tbody>
+  </table>
+
+<?php
+echo '<form>
+<input type="button" value="Print this page" onClick="window.print()"/>
+</form>';
+?>
 
