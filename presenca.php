@@ -31,6 +31,14 @@
             else{
                 echo '<tr><td></td>';
             }
+            if($linha2['fralda']!='não tem'){
+                if($fraldas == ''){
+                    $fraldas.$linha2['fralda']
+                }
+                else{
+                    $fraldas.','.$linha2['fralda']
+                }
+            }
         }
         echo '<td>'.$linha['id'].'</td>';
         echo '<td>'.$linha['nome'].'</td>';
