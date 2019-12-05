@@ -47,6 +47,7 @@
         echo '<td>'.$linha['rg'].'</td>';
         echo '<td>'.$linha['nome_pa'].'</td>';
         echo '<td>'.$_POST['data_entrega'].'</td>';
+        echo '<td></td>';
       }
     ?>
   </tbody>
