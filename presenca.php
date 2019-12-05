@@ -26,10 +26,10 @@
         $fraldas="";
         while($linha2 = mysqli_fetch_array($consulta_dp)){
             if($linha2['data_nascimentoBB']!= '1111-11-11'){
-                echo '<tr><td>X</td>';
+                $gest = '<td>X</td>';
             }
             else{
-                echo '<tr><td></td>';
+                $gest = '<td></td>';
             }
             if($linha2['fralda']!='não tem'){
                 if($fraldas == ''){
@@ -40,6 +40,8 @@
                 }
             }
         }
+        echo $gest;
+        echo '<td>'.$fraldas.'</td>';
         echo '<td>'.$linha['id'].'</td>';
         echo '<td>'.$linha['nome'].'</td>';
         echo '<td>'.$linha['rg'].'</td>';
