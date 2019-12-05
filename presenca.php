@@ -33,10 +33,10 @@
             }
             if($linha2['fralda']!='não tem'){
                 if($fraldas == ''){
-                    $fraldas.$linha2['fralda']
+                    $fraldas.$linha2['fralda'];
                 }
                 else{
-                    $fraldas.','.$linha2['fralda']
+                    $fraldas.','.$linha2['fralda'];
                 }
             }
         }
