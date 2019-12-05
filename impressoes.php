@@ -58,6 +58,7 @@
 <form method="post" action="presenca.php" target="_blank" id="formpresenca" style="display:none">
 <label class="badge badge-secondary">Data da Entrega:</label>
     <input type="text" class="form-control" name="data_entrega" placeholder="Digite a data da entrega" id="data_entrega">
+    <br/>
     <input type="submit" class="btn btn-primary" value="Gerar Lista" >
     <br/>
 </form>
