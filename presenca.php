@@ -29,14 +29,16 @@
                 $gest = '<td>X</td>';
             }
             else{
-                $gest = '<td></td>';
+                if($gest!='<td>X</td>'){
+                    $gest = '<td></td>';
+                }
             }
             if($linha2['fralda']!='não tem'){
                 if($fraldas == ''){
-                    $fraldas.$linha2['fralda'];
+                    $fraldas=$fraldas.$linha2['fralda'];
                 }
                 else{
-                    $fraldas.','.$linha2['fralda'];
+                    $fraldas=$fraldas.','.$linha2['fralda'];
                 }
             }
         }
