@@ -17,14 +17,14 @@
       while($linha = mysqli_fetch_array($consulta_pessoas)){
         $id = $linha['id'];
         $consulta_dp = mysqli_query($conexao,  "SELECT * FROM dependentes WHERE num_cadastro = '$id' ");
-        while($linha2 = mysqli_fetch_array($consulta_dp)){
-            if($linha2['data_nascimentoBB']!= '1111-11-11'){
-                echo '<tr><td>X</td>';
-            }
-            else{
-                echo '<tr><td></td>';
-            }
-        }
+//        while($linha2 = mysqli_fetch_array($consulta_dp)){
+  //          if($linha2['data_nascimentoBB']!= '1111-11-11'){
+    //            echo '<tr><td>X</td>';
+      //      }
+        //    else{
+          //      echo '<tr><td></td>';
+            //}
+        //}
         echo '<td>'.$linha['id'].'</td>';
         echo '<td>'.$linha['nome'].'</td>';
         echo '<td>'.$linha['rg'].'</td>';
