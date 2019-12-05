@@ -1,4 +1,5 @@
-<?php include 'db.php' ?>
+<?php include 'db.php';
+    include 'footer.php'; ?>
 <h3 class="titulo">Lista de Presença Mensal</h3><br>
 <table class="table table-hover table-striped" id="presenca">
   <thead>
