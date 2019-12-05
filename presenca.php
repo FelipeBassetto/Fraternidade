@@ -24,6 +24,7 @@
         $id = $linha['id'];
         $consulta_dp = mysqli_query($conexao,  "SELECT * FROM dependentes WHERE num_cadastro = '$id' ");
         $fraldas="";
+        $gest = '';
         while($linha2 = mysqli_fetch_array($consulta_dp)){
             if($linha2['data_nascimentoBB']!= '1111-11-11'){
                 $gest = '<td>X</td>';
