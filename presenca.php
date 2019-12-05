@@ -40,8 +40,8 @@
                 }
             }
         }
-        echo $gest;
         echo '<td>'.$fraldas.'</td>';
+        echo $gest;
         echo '<td>'.$linha['id'].'</td>';
         echo '<td>'.$linha['nome'].'</td>';
         echo '<td>'.$linha['rg'].'</td>';
