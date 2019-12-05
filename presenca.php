@@ -52,6 +52,9 @@
         echo '<td>'.$_POST['data_entrega'].'</td>';
         echo '<td></td>';
       }
+      echo '<form>
+      <input type="button" value="Print this page" onClick="window.print()"/>
+      </form>'
     ?>
   </tbody>
-  
+
