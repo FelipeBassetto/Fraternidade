@@ -1,3 +1,5 @@
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="jquery.mask.min.js"></script>
 <h1 class='titulo'>Selecione oque deseja imprimir.</h1>
 <div class="form-group">
     <input type="radio" value="cartao" name='impressao' id='cartao' onclick="verifica()" >  Cartões das pessoas.
