@@ -4,6 +4,5 @@
 <script>
     $('#pessoas').DataTable();
     $('#dependentes').DataTable();
-    $('#presenca').DataTable();
 </script>
 
