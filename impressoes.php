@@ -51,6 +51,7 @@
 </form>
 <form method="post" action="etiqueta.php" target="_blank" id="formetiqueta" style="display:none">
     <input type="submit" class="btn btn-primary" value="Gerar Etiquetas" >
+    
     <br/>
 </form>
 <form method="post" action="sacolinhas.php" target="_blank" id="formsacolinha" style="display:none">
