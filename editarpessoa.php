@@ -30,7 +30,10 @@ $data_cadastro = date('d/m/Y',$data_process2);
 <h1 class="titulo">Dados</h1>
 
 <form method="post" action="editapessoa.php">
-  <input type="hidden" name="id_edi" id='id_edi' value="<?php echo $linha['id'];?>">
+  <div class="form-group">
+  <label class="badge badge-secondary">Cadastro:</label>
+  <input type="input" class="form-control" name="id_edi" id='id_edi' value="<?php echo $linha['id'];?>" readonly>
+  </div>
   <div class="form-group">
     <label class="badge badge-secondary">Nome:</label>
     <input type="text" class="form-control" name="nome_edi" placeholder="" value="<?php echo $linha['nome'];?> " id="nome_edi">

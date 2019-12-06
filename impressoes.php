@@ -2,9 +2,6 @@
 <script type="text/javascript" src="jquery.mask.min.js"></script>
 <h1 class='titulo'>Selecione oque deseja imprimir.</h1>
 <div class="form-group">
-    <input type="radio" value="cartao" name='impressao' id='cartao' onclick="verifica()" >  Cartões das pessoas.
-</div>
-<div class="form-group">
     <input type="radio" value="etiqueta" name='impressao' id='etiqueta' onclick="verifica()">  Etiquetas.
 </div>
 <div class="form-group">
@@ -17,83 +14,30 @@
 <!--chamar forms-->
 <script>
     function verifica() {
-    if($("#cartao").is(":checked")){
-        $('#formcartao').css("display","block");
-        $('#formetiqueta').css("display","none");
-        $('#formsacolinha').css("display","none");
-        $('#formpresenca').css("display","none");
-    } else if($("#etiqueta").is(":checked")){
+    if($("#etiqueta").is(":checked")){
         $('#formetiqueta').css("display","block");
-        $('#formcartao').css("display","none");
         $('#formsacolinha').css("display","none");
         $('#formpresenca').css("display","none");
     } else if($("#sacolinha").is(":checked")){
         $('#formsacolinha').css("display","block");
-        $('#formcartao').css("display","none");
         $('#formetiqueta').css("display","none");
         $('#formpresenca').css("display","none");
     } else if($("#presenca").is(":checked")){
         $('#formpresenca').css("display","block");
-        $('#formcartao').css("display","none");
         $('#formetiqueta').css("display","none");
         $('#formsacolinha').css("display","none");
     } else{
-        $('#formcartao').css("display","none");
         $('#formetiqueta').css("display","none");
         $('#formsacolinha').css("display","none");
         $('#formpresenca').css("display","none");
     }
     }
 </script>
-<form method="post" action="cartao.php" target="_blank" id="formcartao" style="display:none">
-    <input type="submit" class="btn btn-primary" value="Gerar cartões" >
-    <br/>
-</form>
 <form method="post" action="etiqueta.php" target="_blank" id="formetiqueta" style="display:none">
-<!--tabela-->
-<table class="table table-hover table-striped" id="dependentes">
-  <thead>
-    <tr>
-      <th>Selecionar</th>
-      <th>Numero Cadastro</th>
-      <th>Numero Criança</th>
-      <th>Nome</th>
-      <th>Idade</th>
-    </tr>
-  </thead>
-  <tbody>
-    <?php 
-      $consulta_dependentes = mysqli_query($conexao,  "SELECT * FROM dependentes WHERE idade_C <15");
-      $imprimir = array();
-      while($linha_depen = mysqli_fetch_array($consulta_dependentes)){
-        ?>
-        <tr><td><input type="checkbox" id="id_depend" onclick="adiciona()"></td>
-        <?php
-
-        echo '<td>'.$linha_depen['num_cadastro'].'</td>';
-        echo '<td>'.$linha_depen['num_crianca'].'</td>';
-        echo '<td>'.$linha_depen['nome_dependente'].'</td>';
-        echo '<td>'.$linha_depen['idade_C'].'</td>';
-      }
-    ?>
-    <script>
-    function adiciona(){
-        if($("#id_depend").is(":checked")){
-            <?php
-            array_push($imprimir,$linha_depen['id_dependente']);
-            ?>
-        } else{
-            <?php
-            $lugar = array_search($linha_depen['id_dependente'],$imprimir);
-            unset($imprimir[$lugar]);
-            
-            ?>
-        };
-    }
-    </script>
-  </tbody>
-</table>
-    <input type="hidden" name="array[]" id='array' value="<?php $imprimir?>"> 
+    <label class="badge badge-secondary">Data de entrega:</label>
+    <input type="text" class="form-control" name="data_entregar" placeholder="Digite a data da entrega" id="data_entregar">
+    <label class="badge badge-secondary">Idade Maxima:</label> 
+    <input type="text" class="form-control" name="idade" placeholder="Digite a idade maxima" id="idade">   
     <br/>
     <input type="submit" class="btn btn-primary" value="Gerar Etiquetas" >
     <br/>
@@ -114,4 +58,5 @@
 </form>
 <script>
     $('#data_entrega').mask('00/00/0000');
+    $('#data_entregar').mask('00/00/0000');
 </script>
