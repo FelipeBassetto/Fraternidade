@@ -8,7 +8,7 @@
   <tbody>
     <?php
     $idade = $_POST['idade'];
-    $consulta_etiqueta = mysqli_query($conexao,  "SELECT * FROM dependentes WHERE idade_C < $idade");
+    $consulta_etiqueta = mysqli_query($conexao,  "SELECT * FROM dependentes WHERE idade_C <= $idade");
     $conter = 0;
       while($linha = mysqli_fetch_array($consulta_etiqueta)){
         $id = $linha['num_cadastro'];

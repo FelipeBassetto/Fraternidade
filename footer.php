@@ -6,7 +6,7 @@
     $('#pessoas').DataTable();
     $('#dependentes').DataTable();
 </script>
-<footer>
+<footer id="rodap">
     <div class="container">
         <p>©Fraternidade Espírita Irmã Maria</p>
     </div>

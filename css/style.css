@@ -17,6 +17,11 @@ footer{
     background-color: #00083f;
     padding: 35px 0;
 }
+#rodap{
+    height: 50px;
+    background-color: #00083f;
+    padding: 35px 0;
+}
 #social{
     float: right;
     margin: 0 50px;
