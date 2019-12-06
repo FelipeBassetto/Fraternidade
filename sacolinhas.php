@@ -47,7 +47,7 @@
 
 <?php
 echo '<form>
-<input type="button" value="Imprimir tabela" onClick="print()"/>
+<input type="button" value="Imprimir Lista" onClick="print()"/>
 </form>';
 ?>
 

@@ -89,7 +89,7 @@
 
 <?php
 echo '<form>
-<input type="button" value="Print this page" onClick="window.print()"/>
+<input type="button" value="Imprimir etiquetas" onClick="window.print()"/>
 </form>';
 ?>
 
