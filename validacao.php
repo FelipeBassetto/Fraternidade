@@ -10,7 +10,8 @@ while($verifica = mysqli_fetch_array($consulta_usuario) ){
 }
 
 if($login_bd == $login AND $senha_bd == $senha){
-  header("Location:index.php?pagina=pessoas");
+  $pagina = md5('pessoas');
+  header("Location:index.php?pagina=".$pagina);
 }else{
   echo"<script language='javascript' type='text/javascript'>alert('Login e/ou senha incorretos');window.location='index.php'</script>";
 }

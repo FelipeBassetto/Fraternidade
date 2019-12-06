@@ -37,6 +37,6 @@ nome_pa = '$nome_pa', rg_pa = '$rg_pa', informacao_adicional = '$informacao_adic
 status = '$status' WHERE id = '$id'";
 
 mysqli_query($conexao, $query);
-
-header('location:index.php');
+$pagina = md5('pessoas');
+header('location:index.php?pagina='.$pagina);
 

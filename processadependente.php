@@ -31,8 +31,8 @@ $idade = $atual - $data_nascimento;
 $query = "INSERT INTO dependentes values (default, '$num_cadastro', '$numer_crianca', '$nome', '$data_nascimento','$sexo', '$rg', 
 '$grau', '$idade', '$sapato', '$roupa', '$data_nascimento_bb', '$deficiencia', '$fralda')";
 mysqli_query($conexao, $query);
-
-header("location:index.php?pagina=editarpessoa&editar=$num_cadastro");
+$pagina = md5('editarpessoa');
+header("location:index.php?pagina=".$pagina."&editar=$num_cadastro");
 ?>
 
 

@@ -9,5 +9,5 @@ while($linha = mysqli_fetch_array($consulta_pessoas)){
     }
 }
 
-header('location:index.php');
+header('location:index.php?pagina=pessoas');
 

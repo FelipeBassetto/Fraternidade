@@ -2,7 +2,7 @@
 $link = $_GET['editar']
 ?>
 <h3 class="titulo">Dependentes</h3><br>
-<a href="?pagina=cadastrodependente&cadastro=<?php echo $link?>" class="btn btn-success">Cadastrar um dependente.</a><p></p>
+<a href="?pagina=<?php echo md5('cadastrodependente') ?>&cadastro=<?php echo $link?>" class="btn btn-success">Cadastrar um dependente.</a><p></p>
 <table class="table table-hover table-striped" id="dependentes">
   <thead>
     <tr>
@@ -24,7 +24,7 @@ $link = $_GET['editar']
         echo '<td>'.$linha_depen['nome_dependente'].'</td>';
         echo '<td>'.$linha_depen['idade_C'].'</td>';
     ?>
-    <td><a href="?pagina=editardependente&editar=<?php echo $linha_depen['id_dependente'];?>"><i class="fas fa-user-edit"></i></a></td>
+    <td><a href="?pagina=<?php echo md5('editardependente') ?>&editar=<?php echo $linha_depen['id_dependente'];?>"><i class="fas fa-user-edit"></i></a></td>
     <td><a href="deletadependente.php?deletar=<?php echo $linha_depen['id_dependente'];?>"><i class="fas fa-user-times"style="color: #ff6b6b;"></i></a></td></tr>
     <?php
       }

@@ -17,7 +17,7 @@
         echo '<td>'.$linha['nome'].'</td>';
         echo '<td>'.$linha['status'].'</td>';
     ?>
-    <td><a href="?pagina=editarpessoa&editar=<?php echo $linha['id'];?>"><i class="fas fa-user-edit"></i></a></td>
+    <td><a href="?pagina=<?php echo md5('editarpessoa')?>&editar=<?php echo $linha['id'];?>"><i class="fas fa-user-edit"></i></a></td>
     <td><a href="deletapessoa.php?deletar=<?php echo $linha['id'];?>"><i class="fas fa-user-times"style="color: #ff6b6b;"></i></a></td></tr>
     <?php
       }

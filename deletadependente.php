@@ -10,6 +10,6 @@ while($linha = mysqli_fetch_array($consulta_dependentes)){
         mysqli_query($conexao, $query);
     }
 }
-
-header("location:index.php?pagina=editarpessoa&editar=$num_cadastro");
+$pagina_editar = md5('editarpessoa');
+header("location:index.php?pagina=".$pagina_editar."&editar=$num_cadastro");
 

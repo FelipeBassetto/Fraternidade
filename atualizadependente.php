@@ -34,4 +34,5 @@ data_nascimentoBB = '$data_nascimento_bb', deficiencia = '$deficiencia',
 fralda = '$fralda_edi' WHERE id_dependente = '$id'";
 
 mysqli_query($conexao, $query);
-header("location:index.php?pagina=editarpessoa&editar=$num_cadastro");
+$pagina_editar = md5('editarpessoa');
+header("location:index.php?pagina=".$pagina_editar."&editar=$num_cadastro");

@@ -104,7 +104,7 @@ $data_cadastro = date('d/m/Y',$data_process2);
 
 <?php } } ?>
 <br>
-<a class="btn btn-primary" href="?pagina=index.php">Voltar </a>
+<a class="btn btn-primary" href="?pagina=<?php echo md5('pessoas')?>">Voltar </a>
 
 
 <!--Mascara editar-->

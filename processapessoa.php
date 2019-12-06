@@ -39,6 +39,7 @@ mysqli_query($conexao, $query);
 $consulta = mysqli_query($conexao,  "SELECT * FROM pessoas ORDER BY id DESC LIMIT 1");
 $linha = mysqli_fetch_array($consulta);
 $id = $linha['id'];
-header("location:index.php?pagina=cadastrodependente&cadastro=$id");
+$pagina_dependente = md5('cadastrodependente');
+header("location:index.php?pagina=".$pagina_dependente."&cadastro=$id");
 
 
