@@ -10,14 +10,14 @@
     </div>
     <div class="col-md-5 homeDireita">
         <form method="post" action="validacao.php">
-            <h1 class='titulo'>Cadastro de dependentes.</h1>
+            <h1 class='titulo'>Login.</h1>
             <div class="form-group">
                 <label class="badge badge-secondary">Usuário:</label>
-                <input type="text" class="form-control" name="user" placeholder="Digite o usuário">
+                <input type="text" class="login" name="user" placeholder="Digite o usuário">
             </div>
             <div class="form-group">
                 <label class="badge badge-secondary">Senha:</label>
-                <input type="password" class="form-control" name="password" placeholder="Digite a senha">
+                <input type="password" class="login" name="password" placeholder="Digite a senha">
             </div>
             <input type="submit" class="btn btn-primary" value="Entrar" >
         </form>

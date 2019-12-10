@@ -8,6 +8,6 @@ while($linha = mysqli_fetch_array($consulta_pessoas)){
         mysqli_query($conexao, $query);
     }
 }
-
-header('location:index.php?pagina=pessoas');
+$pagina = md5('pessoas');
+header('location:index.php?pagina='.$pagina);
 

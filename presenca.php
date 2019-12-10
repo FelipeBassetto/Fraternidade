@@ -42,7 +42,7 @@
                 }
             }
         }
-        echo '<td>'.$fraldas.'</td>';
+        echo '<tr><td>'.$fraldas.'</td>';
         echo $gest;
         echo '<td>'.$linha['id'].'</td>';
         echo '<td>'.$linha['nome'].'</td>';

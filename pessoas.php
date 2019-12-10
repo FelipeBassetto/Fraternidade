@@ -1,5 +1,5 @@
 <h3 class="titulo">Pessoas cadastradas.</h3><br>
-<a href="?pagina=cadastropessoa" class="btn btn-success">Cadastrar uma nova pessoa</a><p></p>
+<a href="?pagina=<?php echo  md5('cadastropessoa')?>" class="btn btn-success">Cadastrar uma nova pessoa</a><p></p>
 <table class="table table-hover table-striped" id="pessoas">
   <thead>
     <tr>
