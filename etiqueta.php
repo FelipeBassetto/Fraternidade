@@ -18,9 +18,9 @@
                 ?>
                 <tr>
                     <td>
-                        <table>
+                        <table style = "width: 50%">
                             <tbody>
-                                <td>Cadastro:<?php echo $linha['num_cadastro']; ?></td>
+                                <td>Cadastro: <?php echo $linha['num_cadastro']; ?></td>
                                 <td>Entrega até <?php echo $_POST['data_entregar'];?></td>
                                 <tr><td>Responsável:</td>
                                 <td><?php echo $linha2['nome']; ?></td>
