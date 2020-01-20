@@ -79,7 +79,6 @@ table{
     border: 1px solid black;
     border-collapse: collapse;
     width: 97%;
-    margin-left: 2%;
 }
 
 tr{
@@ -88,7 +87,7 @@ tr{
 
 td{
     border: 1px solid black;
-    padding: 10px;
+    padding: 5px;
     text-align: left;
 }
 th{
@@ -96,4 +95,8 @@ th{
     height: 50px;
     padding: 15px;
     text-align: left;
+}
+
+thead{
+    background-color: #495057;
 }
