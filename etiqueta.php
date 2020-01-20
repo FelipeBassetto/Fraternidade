@@ -1,5 +1,4 @@
-<?php include 'db.php';
-    include 'footer.php'; ?>
+<?php include 'db.php'; ?>
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
