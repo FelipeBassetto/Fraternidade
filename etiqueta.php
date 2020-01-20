@@ -18,7 +18,8 @@
                 ?>
                 <tr>
                     <td>
-                        <table class="table-pao">
+					<div class="table-pao">
+                        <table>
                             <tbody>
                                 <td>Cadastro: <?php echo $linha['num_cadastro']; ?></td>
                                 <td>Entrega até <?php echo $_POST['data_entregar'];?></td>
@@ -44,6 +45,7 @@
                                 <tr><td>obs: Incluir roupa intíma e embalar todos os presentes.</td>
                             </tbody>
                         </table>
+						</div>
                     </td>
                 <?php
                 $conter = $conter +1;
