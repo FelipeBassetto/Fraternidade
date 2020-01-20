@@ -14,7 +14,13 @@
     <header>
         <div class="container">
             <a href="?pagina=<?php echo md5('pessoas')?>"><img src="img/logo.png" alt="logo" title="logo" style="width:6%;"></a>
-            <a href="?pagina=<?php echo md5('impressoes')?>" class="botao" >Impressões</a><p></p>
+            <a href="?pagina=<?php echo md5('impressoes')?>" class="btn"  style="
+    background-color: #00083F;
+    margin-left: 2%;
+    border-width: 0.5px;
+    border-color: black;
+    color: #FFF;
+">Impressões</a><p></p>
         </div>
     </header>
     <div id="conteudo" class="container">
