@@ -28,12 +28,6 @@
         echo '<td class="td-lista">'.$linha['num_cadastro'].'</td>';
         echo '<td class="td-lista">'.$linha['num_crianca'].'</td>';
         echo '<td class="td-lista">'.$linha['nome_dependente'].'</td>';
-        if($linha['idade_C']>$_POST['idade_sacolinha']){
-            echo '<td class="td-lista">X</td>';
-        }
-        else{
-            echo '<td class="td-lista"></td>';
-        }
         echo '<td class="td-lista">'.$linha['data_nascimento_dependente'].'</td>';
         echo '<td class="td-lista"></td>';
         echo '<td class="td-lista"></td>';
