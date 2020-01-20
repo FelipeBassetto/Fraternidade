@@ -15,7 +15,7 @@ if (in_array($_SERVER["REMOTE_ADDR"], array("127.0.0.1", "::1"))){
 
 $conexao = mysqli_connect($servidor, $usuario, $senha, $database);
 
-$consulta_pessoas_ativas = mysqli_query($conexao,  "SELECT * FROM pessoas WHERE ");
+$consulta_pessoas_ativas = mysqli_query($conexao,  "SELECT * FROM pessoas WHERE status = 'ATIVO' ");
 $consulta_pessoas = mysqli_query($conexao,  "SELECT * FROM pessoas");
 $consulta_dependentes = mysqli_query($conexao,  "SELECT * FROM dependentes");
 $pega_maximo = mysqli_query($conexao,  "SELECT Max(num_crianca) FROM dependentes;");
