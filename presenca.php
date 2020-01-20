@@ -34,15 +34,13 @@
                 }
             }
             if($linha2['fralda']!='não tem'){
-                if($fraldas == ''){
-                    $fraldas=$fraldas.$linha2['fralda'];
-                }
-                else{
-                    $fraldas=$fraldas.','.$linha2['fralda'];
-                }
+              $fraldas = '<td class="td-lista">X</td>';
+            }
+            else{
+              $fraldas = '<td class="td-lista"></td>';
             }
         }
-        echo '<tr><td class="td-lista">'.$fraldas.'</td>';
+        echo '<tr class="tr-lista">';
         echo $gest;
         echo '<td class="td-lista">'.$linha['id'].'</td>';
         echo '<td class="td-lista">'.$linha['nome'].'</td>';
