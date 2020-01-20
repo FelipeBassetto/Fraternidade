@@ -8,13 +8,13 @@
 <table class="table-lista" id="presenca">
   <thead class="thead-lista">
     <tr class="tr-lista">
-      <th class="th-lista">Fralda</th>
-      <th class="th-lista">Gestante</th>
-      <th class="th-lista">Cadastro</th>
+      <th class="th-lista" style="width: 1;">Fralda</th>
+      <th class="th-lista" style="width: 1;">Gestante</th>
+      <th class="th-lista" style="width: 1;">Cadastro</th>
       <th class="th-lista">Nome</th>
-      <th class="th-lista">Rg</th>
+      <th class="th-lista" style="width: 1;">Rg</th>
       <th class="th-lista">Autorizado</th>
-      <th class="th-lista">Data</th>
+      <th class="th-lista" style="width: 1;">Data</th>
       <th class="th-lista">Assinatura</th>
     </tr>
   </thead>
