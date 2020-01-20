@@ -68,3 +68,11 @@ footer{
     background-clip: padding-box;
 }
 
+.botao{
+    background-color: #00083F;
+    margin-left: 2%;
+    border-width: 0.5px;
+    border-color: black;
+    color: #FFF;
+}
+
