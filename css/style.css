@@ -76,6 +76,7 @@ footer{
 
 table{
     border: 1px solid black;
+    border-collapse: collapse;
 }
 
 tr{
@@ -83,5 +84,8 @@ tr{
 }
 
 td{
+    border: 1px solid black;
+}
+th{
     border: 1px solid black;
 }
