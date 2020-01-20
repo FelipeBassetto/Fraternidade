@@ -7,6 +7,10 @@ body{
     font-size: 16px;
     color: #333;
 }
+.table-pao{
+	height: 50%;
+	border: 1px solid black;
+}
 header{
     height: 100px;
     background-color: #00083f;

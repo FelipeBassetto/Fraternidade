@@ -18,7 +18,7 @@
                 ?>
                 <tr>
                     <td>
-                        <table style = "width: 50%">
+                        <table class="table-pao">
                             <tbody>
                                 <td>Cadastro: <?php echo $linha['num_cadastro']; ?></td>
                                 <td>Entrega até <?php echo $_POST['data_entregar'];?></td>
