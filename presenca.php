@@ -29,15 +29,13 @@
                 $gest = '<td class="td-lista">X</td>';
             }
             else{
-                if($gest!='<td class="td-lista">X</td>'){
-                    $gest = '<td class="td-lista"></td>';
-                }
+                $gest = '<td class="td-lista"> </td>';
             }
             if($linha2['fralda']!='não tem'){
               $fraldas = '<td class="td-lista">X</td>';
             }
             else{
-              $fraldas = '<td class="td-lista"></td>';
+              $fraldas = '<td class="td-lista"> </td>';
             }
         }
         echo '<tr class="tr-lista">';
