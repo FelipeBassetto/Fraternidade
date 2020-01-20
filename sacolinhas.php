@@ -8,15 +8,15 @@
 <table class="table-lista" id="presenca">
   <thead class="thead-lista">
     <tr class="tr-lista">
-      <th class="th-lista">Entregue</th>
-      <th class="th-lista">Cadastro</th>
-      <th class="th-lista">Nº</th>
+      <th class="th-lista" style="width: 1;">Entregue</th>
+      <th class="th-lista" style="width: 1;">Cadastro</th>
+      <th class="th-lista" style="width: 1;">Nº</th>
       <th class="th-lista">Criança</th>
-      <th class="th-lista">Data Nascimento</th>
+      <th class="th-lista" style="width: 1;">Data Nascimento</th>
       <th class="th-lista">Retirado por:</th>
-      <th class="th-lista">Whatsapp</th>
-      <th class="th-lista">Telefone</th>
-      <th class="th-lista">Assinatura</th>
+      <th class="th-lista" style="width: 1;">Whatsapp</th>
+      <th class="th-lista" style="width: 1;">Telefone</th>
+      <th class="th-lista" style="width: 1;">Assinatura</th>
     </tr>
   </thead>
   <tbody>
