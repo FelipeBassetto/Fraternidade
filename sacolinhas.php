@@ -12,7 +12,6 @@
       <th class="th-lista">Cadastro</th>
       <th class="th-lista">Nº</th>
       <th class="th-lista">Criança</th>
-      <th class="th-lista">Bombom</th>
       <th class="th-lista">Data Nascimento</th>
       <th class="th-lista">Retirado por:</th>
       <th class="th-lista">Whatsapp</th>
