@@ -7,7 +7,7 @@ body{
     font-size: 16px;
     color: #333;
 }
-.table-pao{
+.table-pao th{
 	height: 25%;
 	border: 3px solid black;
 }
