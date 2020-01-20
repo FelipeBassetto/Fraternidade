@@ -38,7 +38,7 @@
               $fraldas = '<td class="td-lista"> </td>';
             }
         }
-        echo '<tr class="tr-lista">';
+        echo '<tr class="tr-lista">'.$fraldas;
         echo $gest;
         echo '<td class="td-lista">'.$linha['id'].'</td>';
         echo '<td class="td-lista">'.$linha['nome'].'</td>';
