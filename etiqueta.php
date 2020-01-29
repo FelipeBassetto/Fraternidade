@@ -21,92 +21,92 @@
         <div>
             <div class="table-etiqueta">
                 <div class="div-cadastro">
-                    <div>
-                        <p class="p-lista">Cadastro: .........
+                    <div class="p-lista">
+                        <p>Cadastro: .........
                             <?php echo $linha['num_cadastro']; ?>
                         </p>
                     </div>
-                    <div>
-                        <p class="p-lista">Entrega até <?php echo $_POST['data_entregar'];?></p>
+                    <div class="p-lista">
+                        <p>Entrega até <?php echo $_POST['data_entregar'];?></p>
                     </div>
                 </div>
                 <div>
-                    <div>
-                        <p class="p-lista">Responsável:</p>
+                    <div class="p-lista">
+                        <p>Responsável:</p>
                     </div>
-                    <div>
-                        <p class="p-lista"><?php echo $linha2['nome']; ?></p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <p class="p-lista">nome:</p>
-                    </div>
-                    <div>
-                        <p class="p-lista"><?php echo $linha['nome_dependente']; ?></p>
+                    <div class="p-lista">
+                        <p><?php echo $linha2['nome']; ?></p>
                     </div>
                 </div>
                 <div>
-                    <div>
-                        <p class="p-lista">Sexo:</p>
+                    <div class="p-lista">
+                        <p>nome:</p>
                     </div>
-                    <div>
-                        <p class="p-lista"><?php echo $linha['sexo_dependente']; ?></p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <p class="p-lista">Idade:</p>
-                    </div>
-                    <div>
-                        <p class="p-lista"><?php echo $linha['idade_C']; ?></p>
+                    <div class="p-lista">
+                        <p><?php echo $linha['nome_dependente']; ?></p>
                     </div>
                 </div>
                 <div>
-                    <div>
-                        <p class="p-lista">Nº Roupa:</p>
+                    <div class="p-lista">
+                        <p>Sexo:</p>
                     </div>
-                    <div>
-                        <p class="p-lista"><?php echo $linha['tamanho_roupa']; ?></p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <p class="p-lista">Calçado:</p>
-                    </div>
-                    <div>
-                        <p class="p-lista"><?php echo $linha['tamanho_sapato']; ?></p>
+                    <div class="p-lista">
+                        <p><?php echo $linha['sexo_dependente']; ?></p>
                     </div>
                 </div>
                 <div>
-                    <div>
-                        <p class="p-lista">Brinquedo:</p>
+                    <div class="p-lista">
+                        <p>Idade:</p>
                     </div>
-                    <div>
-                        <p class="p-lista">Novo</p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <p class="p-lista">Necessidades Especiais:</p>
-                    </div>
-                    <div>
-                        <p class="p-lista"><?php echo $linha['deficiencia']; ?></p>
+                    <div class="p-lista">
+                        <p><?php echo $linha['idade_C']; ?></p>
                     </div>
                 </div>
                 <div>
-                    <div>
-                        <p class="p-lista">Fralda:</p>
+                    <div class="p-lista">
+                        <p>Nº Roupa:</p>
                     </div>
-                    <div>
-                        <p class="p-lista"><?php echo $linha['fralda']; ?></p>
+                    <div class="p-lista">
+                        <p><?php echo $linha['tamanho_roupa']; ?></p>
                     </div>
                 </div>
                 <div>
-                    <p class="p-lista">Caixa de bombom Nestlê, Garoto ou Lacta.</p>
+                    <div class="p-lista">
+                        <p>Calçado:</p>
+                    </div>
+                    <div class="p-lista">
+                        <p><?php echo $linha['tamanho_sapato']; ?></p>
+                    </div>
                 </div>
                 <div>
-                    <p class="p-lista">obs: Incluir roupa intíma e embalar todos os presentes.</p>
+                    <div class="p-lista">
+                        <p>Brinquedo:</p>
+                    </div>
+                    <div class="p-lista">
+                        <p>Novo</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="p-lista">
+                        <p>Necessidades Especiais:</p>
+                    </div>
+                    <div class="p-lista">
+                        <p><?php echo $linha['deficiencia']; ?></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="p-lista">
+                        <p>Fralda:</p>
+                    </div>
+                    <div class="p-lista">
+                        <p><?php echo $linha['fralda']; ?></p>
+                    </div>
+                </div>
+                <div class="p-lista">
+                    <p>Caixa de bombom Nestlê, Garoto ou Lacta.</p>
+                </div>
+                <div class="p-lista">
+                    <p>obs: Incluir roupa intíma e embalar todos os presentes.</p>
                 </div>
             </div>
             <?php
@@ -114,71 +114,71 @@
             }else{
                 ?>
             <div class="table-etiqueta">
-                <div>
-                    <p class="p-lista">Cadastro:<?php echo $linha['num_cadastro']; ?></p>
+                <div class="p-lista">
+                    <p>Cadastro:<?php echo $linha['num_cadastro']; ?></p>
                 </div>
-                <div>
-                    <p class="p-lista">Entrega até <?php echo $_POST['data_entregar'];?></p>
+                <div class="p-lista">
+                    <p>Entrega até <?php echo $_POST['data_entregar'];?></p>
                 </div>
-                <div>
-                    <p class="p-lista">Responsável:</p>
+                <div class="p-lista">
+                    <p>Responsável:</p>
                 </div>
-                <div>
-                    <p class="p-lista"><?php echo $linha2['nome']; ?></p>
+                <div class="p-lista">
+                    <p><?php echo $linha2['nome']; ?></p>
                 </div>
-                <div>
-                    <p class="p-lista">nome:</p>
+                <div class="p-lista">
+                    <p>nome:</p>
                 </div>
-                <div>
-                    <p class="p-lista"><?php echo $linha['nome_dependente']; ?></p>
+                <div class="p-lista">
+                    <p><?php echo $linha['nome_dependente']; ?></p>
                 </div>
-                <div>
-                    <p class="p-lista">Sexo:</p>
+                <div class="p-lista">
+                    <p>Sexo:</p>
                 </div>
-                <div>
-                    <p class="p-lista"><?php echo $linha['sexo_dependente']; ?></p>
+                <div class="p-lista">
+                    <p><?php echo $linha['sexo_dependente']; ?></p>
                 </div>
-                <div>
-                    <p class="p-lista">Idade:</p>
+                <div class="p-lista">
+                    <p>Idade:</p>
                 </div>
-                <div>
-                    <p class="p-lista"><?php echo $linha['idade_C']; ?></p>
+                <div class="p-lista">
+                    <p><?php echo $linha['idade_C']; ?></p>
                 </div>
-                <div>
-                    <p class="p-lista">Nº Roupa:</p>
+                <div class="p-lista">
+                    <p>Nº Roupa:</p>
                 </div>
-                <div>
-                    <p class="p-lista"><?php echo $linha['tamanho_roupa']; ?></p>
+                <div class="p-lista">
+                    <p><?php echo $linha['tamanho_roupa']; ?></p>
                 </div>
-                <div>
-                    <p class="p-lista">Calçado:</p>
+                <div class="p-lista">
+                    <p>Calçado:</p>
                 </div>
-                <div>
-                    <p class="p-lista"><?php echo $linha['tamanho_sapato']; ?></p>
+                <div class="p-lista">
+                    <p><?php echo $linha['tamanho_sapato']; ?></p>
                 </div>
-                <div>
-                    <p class="p-lista">Brinquedo:</p>
+                <div class="p-lista">
+                    <p>Brinquedo:</p>
                 </div>
-                <div>
-                    <p class="p-lista">Novo</p>
+                <div class="p-lista">
+                    <p>Novo</p>
                 </div>
-                <div>
-                    <p class="p-lista">Necessidades Especiais:</p>
+                <div class="p-lista">
+                    <p>Necessidades Especiais:</p>
                 </div>
-                <div>
-                    <p class="p-lista"><?php echo $linha['deficiencia']; ?></p>
+                <div class="p-lista">
+                    <p><?php echo $linha['deficiencia']; ?></p>
                 </div>
-                <div>
-                    <p class="p-lista">Fralda:</p>
+                <div class="p-lista">
+                    <p>Fralda:</p>
                 </div>
-                <div>
-                    <p class="p-lista"><?php echo $linha['fralda']; ?></p>
+                <div class="p-lista">
+                    <p><?php echo $linha['fralda']; ?></p>
                 </div>
-                <div>
-                    <p class="p-lista">Caixa de bombom Nestlê, Garoto ou Lacta.</p>
+                <div class="p-lista">
+                    <p>Caixa de bombom Nestlê, Garoto ou Lacta.</p>
                 </div>
-                <div>
-                    <p class="p-lista">obs: Incluir roupa intíma e embalar todos os presentes.</p>
+                <div class="p-lista">
+                    <p>obs: Incluir roupa intíma e embalar todos os presentes.</p>
                 </div>
             </div>
         </div>
