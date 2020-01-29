@@ -112,7 +112,7 @@
                 $conter = $conter +1;
             }else{
                 ?>
-            <div>
+            <div class="table-etiqueta">
                 <div>
                     <p class="p-lista">Cadastro:<?php echo $linha['num_cadastro']; ?></p>
                 </div>
@@ -187,10 +187,8 @@
         }
       }
     ?>
-    </tbody>
-</table>
 
-<?php
+        <?php
 echo '<form>
 <input type="button" value="Imprimir etiquetas" onClick="window.print()"/>
 </form>';
