@@ -29,11 +29,11 @@
         echo '<td class="td-lista">'.$linha['num_crianca'].'</td>';
         echo '<td class="td-lista">'.$linha['nome_dependente'].'</td>';
         $data=$linha['data_nascimento_dependente'];
-        $dia_nasc = (int) substr(($data),0,2);
-        $mes_nasc = (int) substr(($data),3,5);
-        $ano_nasc = (int) substr(($data),6,10);
+        $mes_nasc = (int) substr(($data),5,7);
+        $dia_nasc = (int) substr(($data),8,10);
+        $ano_nasc = (int) substr(($data),0,4);
         $data_process_nasc = mktime(00,00,00,$mes_nasc,$dia_nasc,$ano_nasc);
-        $data_nasc = date('Y-m-d',$data_process_nasc);
+        $data_nasc = date('d/m/Y',$data_process_nasc);
         echo '<td class="td-lista">'.$data_nasc.'</td>';
         echo '<td class="td-lista"></td>';
         echo '<td class="td-lista"></td>';
