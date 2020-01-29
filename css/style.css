@@ -108,3 +108,9 @@ footer {
 .td-cadastro-etiqueta {
   max-width: 1%;
 }
+
+.p-lista {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+}
