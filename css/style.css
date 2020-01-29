@@ -120,3 +120,12 @@ footer {
 .div-cadastro {
   display: flex;
 }
+
+.background-cadastro {
+  background-color: #6495ed;
+}
+
+.background-data {
+  background-color: lightyellow;
+  width: 35%;
+}

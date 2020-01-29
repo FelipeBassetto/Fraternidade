@@ -20,13 +20,13 @@
                 ?>
         <div>
             <div class="table-etiqueta">
-                <div class="div-cadastro">
+                <div class="div-cadastro background-cadastro">
                     <div class="p-lista">
                         <p>Cadastro: .........
                             <?php echo $linha['num_cadastro']; ?>
                         </p>
                     </div>
-                    <div class="p-lista">
+                    <div class="p-lista background-data">
                         <p>Entrega até <?php echo $_POST['data_entregar'];?></p>
                     </div>
                 </div>
