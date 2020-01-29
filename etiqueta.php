@@ -69,10 +69,12 @@
             <td>
                 <table class="table-etiqueta">
                     <tbody>
-                        <div class="td-cadastro-etiqueta">>
-                            <td class="td-lista">Cadastro:<?php echo $linha['num_cadastro']; ?></td>
+                        <div>
+                            <div class="td-cadastro-etiqueta">>
+                                <td class="td-lista">Cadastro:<?php echo $linha['num_cadastro']; ?></td>
+                            </div>
+                            <td class="td-lista">Entrega até <?php echo $_POST['data_entregar'];?></td>
                         </div>
-                        <td class="td-lista">Entrega até <?php echo $_POST['data_entregar'];?></td>
                         <tr class="tr-lista">
                             <td class="td-lista">Responsável:</td>
                             <td class="td-lista"><?php echo $linha2['nome']; ?></td>
