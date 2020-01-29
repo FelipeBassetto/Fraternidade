@@ -22,9 +22,11 @@
                 <div class="table-pao">
                     <table class="table-etiqueta">
                         <tbody>
-                            <div class="td-cadastro-etiqueta">
-                                <td class="td-lista">Cadastro: <?php echo $linha['num_cadastro']; ?>
-                                </td>
+                            <div>
+                                <div class="td-cadastro-etiqueta">
+                                    <td class="td-lista">Cadastro: <?php echo $linha['num_cadastro']; ?>
+                                    </td>
+                                </div>
                             </div>
                             <td class="td-lista">Entrega até <?php echo $_POST['data_entregar'];?></td>
                             <tr class="tr-lista">
@@ -70,7 +72,7 @@
                 <table class="table-etiqueta">
                     <tbody>
                         <div>
-                            <div class="td-cadastro-etiqueta">>
+                            <div class="td-cadastro-etiqueta">
                                 <td class="td-lista">Cadastro:<?php echo $linha['num_cadastro']; ?></td>
                             </div>
                             <td class="td-lista">Entrega até <?php echo $_POST['data_entregar'];?></td>
