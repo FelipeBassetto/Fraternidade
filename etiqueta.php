@@ -21,8 +21,8 @@
             <div class="table-etiqueta">
                 <div class="div-cadastro">
                     <div>
-                        <p class="p-lista">Cadastro:
-                            <?php echo"     ".$linha['num_cadastro']; ?>
+                        <p class="p-lista">Cadastro: .........
+                            <?php echo $linha['num_cadastro']; ?>
                         </p>
                     </div>
                     <div>
