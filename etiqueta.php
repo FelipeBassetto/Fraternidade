@@ -23,7 +23,7 @@
                     <table class="table-etiqueta">
                         <tbody>
                             <div class="td-cadastro-etiqueta">
-                                <td class="th-lista">Cadastro: <?php echo $linha['num_cadastro']; ?>
+                                <td class="td-lista">Cadastro: <?php echo $linha['num_cadastro']; ?>
                                 </td>
                             </div>
                             <td class="td-lista">Entrega até <?php echo $_POST['data_entregar'];?></td>
