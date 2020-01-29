@@ -45,46 +45,60 @@
                 </div>
             </div>
             <div>
-                <p class="p-lista">Sexo:</p>
+                <div>
+                    <p class="p-lista">Sexo:</p>
+                </div>
+                <div>
+                    <p class="p-lista"><?php echo $linha['sexo_dependente']; ?></p>
+                </div>
             </div>
             <div>
-                <p class="p-lista"><?php echo $linha['sexo_dependente']; ?></p>
+                <div>
+                    <p class="p-lista">Idade:</p>
+                </div>
+                <div>
+                    <p class="p-lista"><?php echo $linha['idade_C']; ?></p>
+                </div>
             </div>
             <div>
-                <p class="p-lista">Idade:</p>
+                <div>
+                    <p class="p-lista">Nº Roupa:</p>
+                </div>
+                <div>
+                    <p class="p-lista"><?php echo $linha['tamanho_roupa']; ?></p>
+                </div>
             </div>
             <div>
-                <p class="p-lista"><?php echo $linha['idade_C']; ?></p>
+                <div>
+                    <p class="p-lista">Calçado:</p>
+                </div>
+                <div>
+                    <p class="p-lista"><?php echo $linha['tamanho_sapato']; ?></p>
+                </div>
             </div>
             <div>
-                <p class="p-lista">Nº Roupa:</p>
+                <div>
+                    <p class="p-lista">Brinquedo:</p>
+                </div>
+                <div>
+                    <p class="p-lista">Novo</p>
+                </div>
             </div>
             <div>
-                <p class="p-lista"><?php echo $linha['tamanho_roupa']; ?></p>
+                <div>
+                    <p class="p-lista">Necessidades Especiais:</p>
+                </div>
+                <div>
+                    <p class="p-lista"><?php echo $linha['deficiencia']; ?></p>
+                </div>
             </div>
             <div>
-                <p class="p-lista">Calçado:</p>
-            </div>
-            <div>
-                <p class="p-lista"><?php echo $linha['tamanho_sapato']; ?></p>
-            </div>
-            <div>
-                <p class="p-lista">Brinquedo:</p>
-            </div>
-            <div>
-                <p class="p-lista">Novo</p>
-            </div>
-            <div>
-                <p class="p-lista">Necessidades Especiais:</p>
-            </div>
-            <div>
-                <p class="p-lista"><?php echo $linha['deficiencia']; ?></p>
-            </div>
-            <div>
-                <p class="p-lista">Fralda:</p>
-            </div>
-            <div>
-                <p class="p-lista"><?php echo $linha['fralda']; ?></p>
+                <div>
+                    <p class="p-lista">Fralda:</p>
+                </div>
+                <div>
+                    <p class="p-lista"><?php echo $linha['fralda']; ?></p>
+                </div>
             </div>
             <div>
                 <p class="p-lista">Caixa de bombom Nestlê, Garoto ou Lacta.</p>
