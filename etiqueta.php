@@ -22,7 +22,7 @@
                 <div class="div-cadastro">
                     <div>
                         <p class="p-lista">Cadastro:
-                            <?php echo $linha['num_cadastro']; ?>
+                            <?php echo"     ".$linha['num_cadastro']; ?>
                         </p>
                     </div>
                     <div>
