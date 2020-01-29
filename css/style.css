@@ -104,6 +104,8 @@ footer {
 .table-etiqueta {
   border: 1px solid black;
   width: 97%;
+  margin: 0;
+  padding: 0;
 }
 .td-cadastro-etiqueta {
   max-width: 1%;
