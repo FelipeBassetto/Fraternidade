@@ -18,7 +18,7 @@
             if($conter%2==0){
                 ?>
         <div>
-            <div class="table-etiqueta">
+            <div>
                 <div>
                     <div class="td-cadastro-etiqueta">
                         <p class="p-lista p-cadastro-etiqueta">Cadastro:
