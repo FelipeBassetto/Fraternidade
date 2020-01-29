@@ -22,7 +22,9 @@
                 <div class="table-pao">
                     <table class="table-etiqueta">
                         <tbody>
-                            <td class="td-lista">Cadastro: <?php echo $linha['num_cadastro']; ?></td>
+                            <div style="width: 1;">
+                                <td class="td-lista">Cadastro: <?php echo $linha['num_cadastro']; ?></td>
+                            </div>
                             <td class="td-lista">Entrega até <?php echo $_POST['data_entregar'];?></td>
                             <tr class="tr-lista">
                                 <td class="td-lista">Responsável:</td>
