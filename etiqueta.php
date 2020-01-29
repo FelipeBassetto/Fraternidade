@@ -20,7 +20,7 @@
                 ?>
         <div>
             <div class="table-etiqueta">
-                <div class="div-cadastro">
+                <div class="div-display">
                     <div class="p-lista  background-cadastro">
                         <p>Cadastro: .........
                             <?php echo $linha['num_cadastro']; ?>
@@ -30,7 +30,7 @@
                         <p>Entrega até <?php echo $_POST['data_entregar'];?></p>
                     </div>
                 </div>
-                <div>
+                <div class="div-display">
                     <div class="p-lista">
                         <p>Responsável:</p>
                     </div>
@@ -38,15 +38,15 @@
                         <p><?php echo $linha2['nome']; ?></p>
                     </div>
                 </div>
-                <div>
+                <div class="div-display">
                     <div class="p-lista">
-                        <p>nome:</p>
+                        <p>Nome:</p>
                     </div>
                     <div class="p-lista">
                         <p><?php echo $linha['nome_dependente']; ?></p>
                     </div>
                 </div>
-                <div>
+                <div class="div-display">
                     <div class="p-lista">
                         <p>Sexo:</p>
                     </div>
@@ -54,7 +54,7 @@
                         <p><?php echo $linha['sexo_dependente']; ?></p>
                     </div>
                 </div>
-                <div>
+                <div class="div-display">
                     <div class="p-lista">
                         <p>Idade:</p>
                     </div>
@@ -62,7 +62,7 @@
                         <p><?php echo $linha['idade_C']; ?></p>
                     </div>
                 </div>
-                <div>
+                <div class="div-display">
                     <div class="p-lista">
                         <p>Nº Roupa:</p>
                     </div>
@@ -70,7 +70,7 @@
                         <p><?php echo $linha['tamanho_roupa']; ?></p>
                     </div>
                 </div>
-                <div>
+                <div class="div-display">
                     <div class="p-lista">
                         <p>Calçado:</p>
                     </div>
@@ -78,7 +78,7 @@
                         <p><?php echo $linha['tamanho_sapato']; ?></p>
                     </div>
                 </div>
-                <div>
+                <div class="div-display">
                     <div class="p-lista">
                         <p>Brinquedo:</p>
                     </div>
@@ -86,7 +86,7 @@
                         <p>Novo</p>
                     </div>
                 </div>
-                <div>
+                <div class="div-display">
                     <div class="p-lista">
                         <p>Necessidades Especiais:</p>
                     </div>
@@ -94,7 +94,7 @@
                         <p><?php echo $linha['deficiencia']; ?></p>
                     </div>
                 </div>
-                <div>
+                <div class="div-display">
                     <div class="p-lista">
                         <p>Fralda:</p>
                     </div>
@@ -109,6 +109,7 @@
                     <p>obs: Incluir roupa intíma e embalar todos os presentes.</p>
                 </div>
             </div>
+            <br />
             <?php
                 $conter = $conter +1;
             }else{
@@ -182,6 +183,7 @@
                 </div>
             </div>
         </div>
+        <br />
         <?php
                 $conter = $conter +1;
             }
