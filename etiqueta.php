@@ -22,7 +22,7 @@
                 <div class="table-pao">
                     <table class="table-etiqueta">
                         <tbody>
-                            <div>
+                            <div class="td-cadastro-etiqueta">
                                 <td class="th-lista">Cadastro: <?php echo $linha['num_cadastro']; ?>
                                 </td>
                             </div>

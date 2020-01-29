@@ -105,3 +105,6 @@ footer {
   border: 1px solid black;
   width: 97%;
 }
+.td-cadastro-etiqueta {
+  max-width: 50%;
+}
