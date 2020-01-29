@@ -18,25 +18,31 @@
             if($conter%2==0){
                 ?>
         <div class="table-etiqueta">
-            <div class="td-cadastro-etiqueta">
-                <p class="p-lista p-cadastro-etiqueta">Cadastro:
-                    <?php echo $linha['num_cadastro']; ?>
-                </p>
+            <div>
+                <div class="td-cadastro-etiqueta">
+                    <p class="p-lista p-cadastro-etiqueta">Cadastro:
+                        <?php echo $linha['num_cadastro']; ?>
+                    </p>
+                </div>
+                <div>
+                    <p class="p-lista">Entrega até <?php echo $_POST['data_entregar'];?></p>
+                </div>
             </div>
             <div>
-                <p class="p-lista">Entrega até <?php echo $_POST['data_entregar'];?></p>
+                <div>
+                    <p class="p-lista">Responsável:</p>
+                </div>
+                <div>
+                    <p class="p-lista"><?php echo $linha2['nome']; ?></p>
+                </div>
             </div>
             <div>
-                <p class="p-lista">Responsável:</p>
-            </div>
-            <div>
-                <p class="p-lista"><?php echo $linha2['nome']; ?></p>
-            </div>
-            <div>
-                <p class="p-lista">nome:</p>
-            </div>
-            <div>
-                <p class="p-lista"><?php echo $linha['nome_dependente']; ?></p>
+                <div>
+                    <p class="p-lista">nome:</p>
+                </div>
+                <div>
+                    <p class="p-lista"><?php echo $linha['nome_dependente']; ?></p>
+                </div>
             </div>
             <div>
                 <p class="p-lista">Sexo:</p>
