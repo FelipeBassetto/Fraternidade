@@ -19,7 +19,7 @@
                 ?>
         <div>
             <div class="table-etiqueta">
-                <div>
+                <div class="div-cadastro">
                     <div>
                         <p class="p-lista">Cadastro:
                             <?php echo $linha['num_cadastro']; ?>
