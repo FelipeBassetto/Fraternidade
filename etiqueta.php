@@ -21,7 +21,7 @@
             <div class="table-etiqueta">
                 <div>
                     <div class="td-cadastro-etiqueta">
-                        <p class="p-lista p-cadastro-etiqueta">Cadastro:
+                        <p class="p-lista">Cadastro:
                             <?php echo $linha['num_cadastro']; ?>
                         </p>
                     </div>
