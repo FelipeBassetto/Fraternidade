@@ -18,7 +18,7 @@
             if($conter%2==0){
                 ?>
         <div>
-            <div>
+            <div class="table-etiqueta">
                 <div>
                     <div class="td-cadastro-etiqueta">
                         <p class="p-lista p-cadastro-etiqueta">Cadastro:
@@ -114,70 +114,70 @@
                 ?>
             <div>
                 <div>
-                    <td class="td-lista">Cadastro:<?php echo $linha['num_cadastro']; ?></td>
+                    <p class="p-lista">Cadastro:<?php echo $linha['num_cadastro']; ?></p>
                 </div>
                 <div>
-                    <td class="td-lista">Entrega até <?php echo $_POST['data_entregar'];?></td>
+                    <p class="p-lista">Entrega até <?php echo $_POST['data_entregar'];?></p>
                 </div>
                 <div>
-                    <td class="td-lista">Responsável:</td>
+                    <p class="p-lista">Responsável:</p>
                 </div>
                 <div>
-                    <td class="td-lista"><?php echo $linha2['nome']; ?></td>
+                    <p class="p-lista"><?php echo $linha2['nome']; ?></p>
                 </div>
                 <div>
-                    <td class="td-lista">nome:</td>
+                    <p class="p-lista">nome:</p>
                 </div>
                 <div>
-                    <td class="td-lista"><?php echo $linha['nome_dependente']; ?></td>
+                    <p class="p-lista"><?php echo $linha['nome_dependente']; ?></p>
                 </div>
                 <div>
-                    <td class="td-lista">Sexo:</td>
+                    <p class="p-lista">Sexo:</p>
                 </div>
                 <div>
-                    <td class="td-lista"><?php echo $linha['sexo_dependente']; ?></td>
+                    <p class="p-lista"><?php echo $linha['sexo_dependente']; ?></p>
                 </div>
                 <div>
-                    <td class="td-lista">Idade:</td>
+                    <p class="p-lista">Idade:</p>
                 </div>
                 <div>
-                    <td class="td-lista"><?php echo $linha['idade_C']; ?></td>
+                    <p class="p-lista"><?php echo $linha['idade_C']; ?></p>
                 </div>
                 <div>
-                    <td class="td-lista">Nº Roupa:</td>
+                    <p class="p-lista">Nº Roupa:</p>
                 </div>
                 <div>
-                    <td class="td-lista"><?php echo $linha['tamanho_roupa']; ?></td>
+                    <p class="p-lista"><?php echo $linha['tamanho_roupa']; ?></p>
                 </div>
                 <div>
-                    <td class="td-lista">Calçado:</td>
+                    <p class="p-lista">Calçado:</p>
                 </div>
                 <div>
-                    <td class="td-lista"><?php echo $linha['tamanho_sapato']; ?></td>
+                    <p class="p-lista"><?php echo $linha['tamanho_sapato']; ?></p>
                 </div>
                 <div>
-                    <td class="td-lista">Brinquedo:</td>
+                    <p class="p-lista">Brinquedo:</p>
                 </div>
                 <div>
-                    <td class="td-lista">Novo</td>
+                    <p class="p-lista">Novo</p>
                 </div>
                 <div>
-                    <td class="td-lista">Necessidades Especiais:</td>
+                    <p class="p-lista">Necessidades Especiais:</p>
                 </div>
                 <div>
-                    <td class="td-lista"><?php echo $linha['deficiencia']; ?></td>
+                    <p class="p-lista"><?php echo $linha['deficiencia']; ?></p>
                 </div>
                 <div>
-                    <td class="td-lista">Fralda:</td>
+                    <p class="p-lista">Fralda:</p>
                 </div>
                 <div>
-                    <td class="td-lista"><?php echo $linha['fralda']; ?></td>
+                    <p class="p-lista"><?php echo $linha['fralda']; ?></p>
                 </div>
                 <div>
-                    <td class="td-lista">Caixa de bombom Nestlê, Garoto ou Lacta.</td>
+                    <p class="p-lista">Caixa de bombom Nestlê, Garoto ou Lacta.</p>
                 </div>
                 <div>
-                    <td class="td-lista">obs: Incluir roupa intíma e embalar todos os presentes.</td>
+                    <p class="p-lista">obs: Incluir roupa intíma e embalar todos os presentes.</p>
                 </div>
             </div>
         </div>
