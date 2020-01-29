@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <h3 class="titulo">Lista das sacolinhas</h3><br>
-<table class="table-lista" id="presenca">
+<table class="table-etiqueta" id="presenca">
     <thead class="thead-lista">
         <tr class="tr-lista">
             <th class="th-lista" style="width: 1;">Entregue</th>
