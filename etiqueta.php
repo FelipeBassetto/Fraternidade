@@ -20,8 +20,8 @@
                 ?>
         <div>
             <div class="table-etiqueta">
-                <div class="div-cadastro background-cadastro">
-                    <div class="p-lista">
+                <div class="div-cadastro">
+                    <div class="p-lista  background-cadastro">
                         <p>Cadastro: .........
                             <?php echo $linha['num_cadastro']; ?>
                         </p>
