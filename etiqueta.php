@@ -17,7 +17,7 @@
         if($linha2['status'=='ativo']){
             if($conter%2==0){
                 ?>
-        <tr>
+        <tr class="tr-lista">
             <td>
                 <div class="table-pao">
                     <table>
