@@ -203,6 +203,7 @@
                 </div>
             </div>
         </div>
+            </div>
         <br />
         <?php
                 $conter = $conter +1;
