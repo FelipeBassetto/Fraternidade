@@ -18,7 +18,7 @@
         if($linha2['status'=='ativo']){
             if($conter%2==0){
                 ?>
-        <div>
+        <div class="div-display">
             <div class="table-etiqueta">
                 <div class="div-display">
                     <div class="p-lista  background-cadastro">
