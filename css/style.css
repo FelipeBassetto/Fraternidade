@@ -134,3 +134,83 @@ footer {
 .RNS {
   width: 13.5%;
 }
+
+.background-responsavel{
+    width: 24%;
+}
+
+.background-nomeres{
+    width: 74%;
+}
+
+.background-nome{
+    width: 24%;
+}
+
+.background-crianca{
+    width: 74%;
+}
+
+.background-sexo{
+    width: 24%;
+}
+
+.background-MF{
+    width: 74%;
+}
+
+.background-idade{
+    width: 34%;
+}
+
+.background-num{
+    width: 64%;
+}
+
+.background-roupa{
+    width: 34%;
+}
+
+.background-tamanhoroupa{
+    width: 64%;
+}
+
+.background-sapato{
+    width: 34%;
+}
+
+.background-tamanhosapato{
+    width: 64%;
+}
+
+.background-brinquedo{
+    width: 34%;
+}
+
+.background-estado{
+    width: 64%;
+}
+
+.background-nescessidade{
+    width: 34%;
+}
+
+.background-especiais{
+    width: 64%;
+}
+
+.background-fralda{
+    width: 34%;
+}
+
+.background-tamanhofralda{
+    width: 64%;
+}
+
+.caixabombom{
+    width: 98%;
+}
+
+.obs{
+    width: 98%;
+}
