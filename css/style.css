@@ -123,10 +123,12 @@ footer {
 
 .background-cadastro {
   background-color: #6495ed;
+  width: 39%;
 }
 
 .background-data {
   background-color: lightyellow;
+  width: 59%;
 }
 
 .RNS {
