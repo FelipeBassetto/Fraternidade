@@ -1,6 +1,7 @@
 <?php include 'db.php'; ?>
 <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
 <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/stylepage.css">
 <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" media="screen" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -22,7 +23,7 @@
             <div class="table-etiqueta">
                 <div class="div-display">
                     <div class="p-lista  background-cadastro alturadiv">
-                        <p class="margin-p">Cadastro:
+                        <p class="margin-p">Cadastro: .........
                             <?php echo $linha['num_cadastro']; ?>
                         </p>
                     </div>
