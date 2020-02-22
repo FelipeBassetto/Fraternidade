@@ -22,7 +22,7 @@
             <div class="table-etiqueta">
                 <div class="div-display">
                     <div class="p-lista  background-cadastro alturadiv">
-                        <p class="margin-p">Cadastro: .........
+                        <p class="margin-p">Cadastro:
                             <?php echo $linha['num_cadastro']; ?>
                         </p>
                     </div>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="div-display">
                     <div class="p-lista background-nescessidade alturadiv">
-                        <p class="margin-p">Necessidades Especiais:</p>
+                        <p class="margin-p">Ne. Especiais:</p>
                     </div>
                     <div class="p-lista background-especiais alturadiv">
                         <p class="margin-p"><?php echo $linha['deficiencia']; ?></p>
@@ -181,7 +181,7 @@
                 </div>
                 <div class="div-display">
                     <div class="p-lista background-nescessidade alturadiv">
-                        <p class="margin-p">Necessidades Especiais:</p>
+                        <p class="margin-p">Ne. Especiais:</p>
                     </div>
                     <div class="p-lista background-especiais alturadiv">
                         <p class="margin-p"><?php echo $linha['deficiencia']; ?></p>
