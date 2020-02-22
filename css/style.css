@@ -216,5 +216,13 @@ footer {
 }
 
 .alturadiv{
-  height: 35px;
+  height: 23px;
+}
+
+.alinhadiv{
+  margin-left: 10%;
+}
+
+.margin-p{
+  margin-top: -6px;
 }
