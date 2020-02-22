@@ -23,7 +23,7 @@
             <div class="table-etiqueta">
                 <div class="div-display">
                     <div class="p-lista  background-cadastro alturadiv">
-                        <p class="margin-p">Cadastro: .........
+                        <p class="margin-p">Cadastro:
                             <?php echo $linha['num_cadastro']; ?>
                         </p>
                     </div>
